@@ -8,7 +8,7 @@
     "url": "https://querysail.com"
   },
   "homepage": "https://querysail.com/google-analytics",
-  "repository": "https://github.com/GidianB/querysail-ga4",
+  "repository": "https://github.com/querysail/querysail-ga4",
   "license": "MIT",
   "keywords": ["google analytics", "ga4", "analytics", "traffic", "conversions", "mcp"]
 }

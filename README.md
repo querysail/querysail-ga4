@@ -6,7 +6,7 @@ QuerySail is a hosted, read-only [MCP](https://modelcontextprotocol.io) server f
 
 - **Endpoint:** `https://mcp.querysail.com/ga4/mcp` (Streamable HTTP, OAuth 2.1 with dynamic client registration)
 - **Website:** https://querysail.com/google-analytics
-- **Pricing:** included in the same plan as [QuerySail for Google Search Console](https://github.com/GidianB/querysail-gsc). 7-day free trial, no card required, then $8/month. See https://querysail.com/pricing.
+- **Pricing:** included in the same plan as [QuerySail for Google Search Console](https://github.com/querysail/querysail-gsc). 7-day free trial, no card required, then $8/month. See https://querysail.com/pricing.
 
 This repository holds the public listing files (MCP Registry `server.json`, a Claude Code plugin, client configs). The service itself is hosted at querysail.com; its source is not published here.
 
@@ -43,7 +43,7 @@ claude mcp add --transport http --scope user querysail-ga4 https://mcp.querysail
 Then run `/mcp`, choose `querysail-ga4` and sign in. Or install it as a plugin, which also adds a Google Analytics analysis skill:
 
 ```text
-/plugin marketplace add GidianB/querysail-ga4
+/plugin marketplace add querysail/querysail-ga4
 /plugin install querysail-ga4@querysail-ga4
 ```
 

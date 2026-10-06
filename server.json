@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "websiteUrl": "https://querysail.com/google-analytics",
   "repository": {
-    "url": "https://github.com/GidianB/querysail-ga4",
+    "url": "https://github.com/querysail/querysail-ga4",
     "source": "github"
   },
   "icons": [
