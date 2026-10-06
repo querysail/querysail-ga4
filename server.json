@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.querysail/ga4",
+  "title": "QuerySail: Google Analytics",
+  "description": "Hosted, read-only Google Analytics 4 MCP: reports, period comparisons, realtime, custom fields.",
+  "version": "1.0.0",
+  "websiteUrl": "https://querysail.com/google-analytics",
+  "repository": {
+    "url": "https://github.com/GidianB/querysail-ga4",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://querysail.com/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.querysail.com/ga4/mcp"
+    }
+  ]
+}
