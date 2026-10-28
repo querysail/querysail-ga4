@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "querysail-ga4": { "url": "https://mcp.querysail.com/ga4/mcp" }
+  }
+}
