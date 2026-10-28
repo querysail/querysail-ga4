@@ -86,6 +86,20 @@ Run **MCP: Add Server**, choose **HTTP** and paste the endpoint, or add to `mcp.
 }
 ```
 
+### Cline
+
+Open **MCP Servers** → **Remote Servers**, name it `querysail-ga4`, paste the endpoint, choose **Streamable HTTP** and click **Add Server**. Or add to `cline_mcp_settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "querysail-ga4": { "type": "streamableHttp", "url": "https://mcp.querysail.com/ga4/mcp" }
+  }
+}
+```
+
+Sign in with your QuerySail account when Cline asks.
+
 ### Clients that only run local commands
 
 Use the [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridge (needs Node.js):
