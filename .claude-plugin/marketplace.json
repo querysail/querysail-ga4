@@ -1,6 +1,6 @@
 {
   "name": "querysail-ga4",
-  "description": "QuerySail plugin: hosted, read-only Google Analytics 4 access for Claude Code.",
+  "description": "QuerySail plugin: hosted Google Analytics 4 access for Claude Code.",
   "owner": {
     "name": "Gidian Bateman",
     "email": "support@querysail.com"
@@ -9,7 +9,7 @@
     {
       "name": "querysail-ga4",
       "source": "./",
-      "description": "Read-only Google Analytics 4 data in Claude Code: reports, period comparisons, realtime and custom fields.",
+      "description": "Google Analytics 4 data in Claude Code: reports, period comparisons, realtime and custom fields.",
       "category": "productivity"
     }
   ]

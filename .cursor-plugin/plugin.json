@@ -1,7 +1,7 @@
 {
   "name": "querysail-ga4",
   "version": "1.0.0",
-  "description": "Read-only access to your own Google Analytics 4 data: properties, reports, period comparisons, realtime and custom dimensions and metrics.",
+  "description": "Ask about your own Google Analytics 4 data: properties, reports, period comparisons, realtime and custom dimensions and metrics.",
   "author": {
     "name": "Gidian Bateman",
     "email": "support@querysail.com",
