@@ -7,6 +7,18 @@ description: Answer questions about a site's or app's Google Analytics 4 traffic
 
 The QuerySail MCP server (`querysail-ga4`) gives read-only access to the user's own Google Analytics 4 data.
 
+## Setup when the tools are missing
+
+If no `querysail-ga4` tools (such as `run_report`) are available, the server is not connected. Ask the user before you change their configuration, then add it for their client:
+
+- Claude Code: run `claude mcp add --transport http --scope user querysail-ga4 https://mcp.querysail.com/ga4/mcp`. The user then runs `/mcp`, chooses `querysail-ga4` and signs in.
+- Codex: run `codex mcp add querysail-ga4 --url https://mcp.querysail.com/ga4/mcp`, then `codex mcp login querysail-ga4`, which opens the sign-in page.
+- Cursor: add `"querysail-ga4": { "url": "https://mcp.querysail.com/ga4/mcp" }` under `mcpServers` in `~/.cursor/mcp.json`. The user then connects it in Cursor's MCP settings and signs in.
+- VS Code: add `"querysail-ga4": { "type": "http", "url": "https://mcp.querysail.com/ga4/mcp" }` under `servers` in `mcp.json`. The user signs in when VS Code asks.
+- Other clients: follow https://querysail.com/google-analytics#connect.
+
+The user signs in with a QuerySail account that has Google Analytics connected. If they have none, they can start the free trial at https://querysail.com. There is no API key. The tools may only appear in a new session.
+
 ## Workflow
 
 1. Call `list_properties` first and use the exact `property_id` it returns (for example `properties/123456789`). Do not guess property IDs. If a name matches more than one property, ask the user which one they mean.
