@@ -1,5 +1,5 @@
 ---
-name: google-analytics-analysis
+name: querysail-google-analytics
 description: Answer questions about a site's or app's Google Analytics 4 traffic, engagement, conversions and revenue with the QuerySail Google Analytics tools. Use when the user asks about users, sessions, page views, channels, sources, landing pages, events, key events, revenue, what changed between periods, or who is on the site right now.
 ---
 
